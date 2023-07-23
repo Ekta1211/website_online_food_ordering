@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.52;
+    color: #000508;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+  }
+  
+.hero-text {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+.btn:hover {
+    background-color: #e53935;
+  }
+
+.section-padding{
+    padding: 60px 0px;
+}
+
+/* about section styling */
+.header-h {
+    text-align: center;
+    color: #070d7d;
+    font-size: 56px;
+    font-family: 'Lucida Handwriting', sans-serif;
+    font-weight: 300;
+}
+.header-p {
+    text-align: center;
+    color: #7a3d0a;
+    font-size: 16px;
+    font-family: 'Lucida Handwriting', sans-serif;
+}
+.heading{
+    text-align: center;
+    font-family: 'Satisfy', sans-serif;
+    color: #FFB03B;
+    font-size: 24px;
+}
+.marb-35{
+    margin-bottom: 35px;
+}
+.details-list{
+    text-align: center;
+    color: #090808;
+    font-size: 24px;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.details-list ul li i {
+    margin-right: 10px;
+    color: #ffb03b;
+}
+
+  /* Add some spacing between elements */
+.container {
+    padding: 20px;
+}  
+
+/* Menu Section Styles */
+#menu {
+    padding: 50px;
+}
+
+#menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    margin-bottom: 10px;
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
